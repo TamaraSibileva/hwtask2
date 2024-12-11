@@ -13,7 +13,10 @@ public class Main {
         } else {
             bonus = 0;
         }
+
         int balance = openingBalance + topUp + bonus; // итоговый счёт
-        System.out.println("Итоговый счёт: " + balance + " Бонусные рубли: " + bonus);
+
+        System.out.println("Итоговый счёт: " + balance);
+        System.out.println("Бонусные рубли: " + bonus);
     }
 }
